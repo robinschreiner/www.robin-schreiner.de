@@ -1,7 +1,15 @@
 <template>
-  <nuxt-link @click.native="to ? null : $router.go(-2)" :to="to ? to : '/'">
-    <svg width="38" height="8" viewBox="0 0 38 8" xmlns="http://www.w3.org/2000/svg" class="inline">
-      <path d="M0.646446 3.64644C0.451183 3.84171 0.451183 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.73079 4.34027 7.73079 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82842L1.70711 4L4.53553 1.17157C4.7308 0.976308 4.7308 0.659725 4.53553 0.464463C4.34027 0.269201 4.02369 0.269201 3.82843 0.464463L0.646446 3.64644ZM38 3.5L1 3.5L1 4.5L38 4.5L38 3.5Z" fill="currentColor"/>
+  <nuxt-link @click.native="to ? null : $router.go(-1)" :to="to ? to : '/'">
+    <svg
+      viewBox="0 0 32 32"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      class="inline w-6 h-6 transition flex-0 group-hover:translate-x-2"
+    >
+      <path
+        d="M 6.9804688 8.9902344 A 1.0001 1.0001 0 0 0 6.2929688 9.2929688 L 1.3808594 14.205078 A 1.0001 1.0001 0 0 0 1.3769531 15.792969 A 1.0001 1.0001 0 0 0 1.3828125 15.796875 L 6.2929688 20.707031 A 1.0001 1.0001 0 1 0 7.7070312 19.292969 L 4.4140625 16 L 28 16 A 1.0001 1.0001 0 1 0 28 14 L 4.4140625 14 L 7.7070312 10.707031 A 1.0001 1.0001 0 0 0 6.9804688 8.9902344 z"
+        fill="currentColor"
+      ></path>
     </svg>
     <slot>go back</slot>
   </nuxt-link>
@@ -10,7 +18,8 @@
 <script>
 export default {
   props: {
-    to: { // ? Override with a path instead of router back
+    to: {
+      // ? Override with a path instead of router back
       type: String,
       default: '',
     },

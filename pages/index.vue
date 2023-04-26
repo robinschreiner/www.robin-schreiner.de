@@ -1,18 +1,34 @@
 <template>
-  <main>
-    <section class="flex flex-col justify-end flex-1 min-h-50vh">
-      <h2 class="subtitle">
-        <p>
-          I'm the bridge between the suits, techies & users. Making sure everyone is on the same page when building
+  <main class="p-8 pt-0 md:pt-8 col-span-full">
+    <section class="grid items-center gap-8 mb-16 md:grid-cols-2">
+      <h2
+        class="flex flex-col gap-8 pt-4 text-xl font-medium font-brand md:text-xl lg:text-2xl xl:text-3xl md:py-16 lg:py-20 md:mr-8 lg:mr-16 xl:mr-24"
+      >
+        <span
+          >I'm the bridge between the suits, techies & users. Making sure everyone is on the same page when building
           products.
-        </p>
-        <p>Currently CPO at be+, I build the future of employee retention for SMEs in an app.</p>
+        </span>
+        <span>Currently CPO at be+, I build the future of employee retention for SMEs in an app.</span>
       </h2>
+      <figure class="order-first object-cover w-full h-full md:order-last">
+        <img
+          src="~assets/images/robin-schreiner.jpg"
+          alt="Portrait for Robin Schreiner"
+          class="object-cover w-full h-full rounded-lg"
+        />
+      </figure>
     </section>
 
-    <section class="mt-32">
-      <!-- <h3 class="max-w-5xl mx-auto text-primary-600 dark:text-primary-400">Latest blog post</h3> -->
-      <posts post-type="blog" :amount="3" />
-    </section>
+    <div class="grid gap-8 md:grid-cols-2">
+      <section class="mt-16">
+        <h2 class="my-8 md:text-xl md:my-16">Projects</h2>
+        <thoughts post-type="projects" :image="false" :amount="3" />
+      </section>
+
+      <section class="mt-16">
+        <h2 class="my-8 md:text-xl md:my-16">Thoughts</h2>
+        <thoughts post-type="thoughts" :amount="3" />
+      </section>
+    </div>
   </main>
 </template>

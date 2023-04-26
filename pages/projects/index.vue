@@ -1,7 +1,7 @@
 <template>
-  <main>
+  <main class="p-8 mx-auto max-w-7xl">
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">Projects</h1>
+      <h1 class="mb-8 text-2xl">Projects</h1>
       <posts post-type="projects" :amount="10" />
     </section>
   </main>
@@ -9,14 +9,17 @@
 
 <script>
 export default {
+  head: {
+    title: 'Robin Schreiner – Projects.',
+  },
   async asyncData({ $content, error }) {
-    let posts;
+    let posts
     try {
-      posts = await $content("projects").fetch();
+      posts = await $content('projects').fetch()
     } catch (e) {
-      error({ message: "Projects not found" });
+      error({ message: 'Project not found' })
     }
-    return { posts };
+    return { posts }
   },
 }
 </script>

@@ -9,13 +9,21 @@ module.exports = {
   theme: {
     darkMode: 'class',
     extend: {
+      aspectRatio: {
+        auto: 'auto',
+        square: '1 / 1',
+        video: '16 / 9',
+      },
       gridTemplateColumns: {
         header: '1fr auto 1fr',
         headerMobile: '1fr auto',
       },
       fontFamily: {
-        sans: ['Apercu, sans-serif'],
-        brand: ['SuisseIntl, sans-serif'],
+        brand: ['Apercu, SuisseIntl, sans-serif'],
+        sans: ['Inter, sans-serif'],
+        // sans: [
+        //   'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+        // ],
       },
       minHeight: {
         '50vh': '50vh',
@@ -48,18 +56,36 @@ module.exports = {
           800: 'var(--color-primary-800)', // #1C263B
           900: 'var(--color-primary-900)', // #0D131E
         },
+        gold: {
+          050: 'var(--color-gold-050)', // #4B4435
+          100: 'var(--color-gold-100)', // #6E5A32
+          200: 'var(--color-gold-200)', // #987328
+          300: 'var(--color-gold-300)', // #C88E17
+          400: 'var(--color-gold-400)', // #ffac00
+          DEFAULT: 'var(--color-gold)', // #FFB822
+          600: 'var(--color-gold-600)', // #FFC444
+          700: 'var(--color-gold-700)', // #FFD066
+          800: 'var(--color-gold-800)', // #FFDB88
+          900: 'var(--color-gold-900)', // #FFE6AA
+        },
       },
       screens: {
         xs: '480px', // Added xs
-        // 'sm': '640px',
-        // 'md': '768px',
-        // 'lg': '1024px',
-        // 'xl': '1280px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
       },
     },
   },
   variants: {},
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    // ...
+  ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === 'production',

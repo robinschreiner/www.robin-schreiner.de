@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
-  "version": "2.1.4",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <hello+dev@svenparker.com> (https://svenparker.com)",
+  "name": "www.robin-schreiner.de",
+  "version": "2.0.1",
+  "description": "Robin Schreiners Website & CV",
+  "author": "Robin Schreiner <hey@robin-schreiner.de> (https://robin-schreiner.de)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,18 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/robinschreiner/www.robin-schreiner.de"
   },
   "license": "MIT",
   "dependencies": {
     "@nuxt/content": "^1.15.1",
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.16.3"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/svg": "^0.4.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",

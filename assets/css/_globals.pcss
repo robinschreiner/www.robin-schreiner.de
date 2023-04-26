@@ -1,27 +1,61 @@
 html {
+  background: var(--light-background);
+  color: var(--light-typo);
+}
+
+html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   padding: env(safe-area-inset);
+  height: -webkit-fill-available;
 }
 
 body {
-  background-color: var(--bg);
-  color: var(--text);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  height: -webkit-fill-available;
+
   @apply transition-colors duration-200 ease-in-out;
 }
 
-.nuxt-link-exact-active {
-  @apply text-gray-200 border-gray-400 bg-gray-800 bg-opacity-25 cursor-default;
+nav li a {
+  @apply text-gray cursor-pointer hover:bg-gray-100 hover:text-gray-600 p-1 rounded transition;
 }
 
-.light {
-  & .scrim-bg {
-  }
-  & .nuxt-link-exact-active {
-    @apply text-primary-700 border-gray-600 bg-gray-100;
-  }
+nav .nuxt-link-exact-active {
+  @apply text-gray-900 bg-gray-300 hover:text-gray-900 hover:bg-gray-300 cursor-default p-1 rounded;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-brand {
+  font-family: var(--font-brand);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+a[href^='tel']::after,
+a[href^='mailto']::after,
+a[href^='http']::after {
+  content: '';
+  width: 11px;
+  height: 9px;
+  margin-left: 4px;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTS44MTUgMTAgMCA5LjE4NWw4LjAyNS04LjAyNmgtNi43MlYwSDEwdjguNjk2SDguODRWMS45NzVMLjgxNiAxMFoiLz48L3N2Zz4=');
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTS44MTUgMTAgMCA5LjE4NWw4LjAyNS04LjAyNmgtNi43MlYwSDEwdjguNjk2SDguODRWMS45NzVMLjgxNiAxMFoiLz48L3N2Zz4=');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: #ccc;
+  display: inline-block;
 }
 
 /* Need two because of smoother switching between color modes */
