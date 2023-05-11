@@ -12,7 +12,7 @@
           <div class="text-gray-500">{{ job.company }}</div>
         </div>
         <div x-data="{showDetails:false}">
-          <div v-if="job.achievements" class="mb-4 space-y-2 text-sm">
+          <div v-if="job.achievements" class="space-y-2 text-sm">
             <p
               class="flex items-start gap-2 font-medium text-gray-600"
               v-for="(achievement, index) in job.achievements"
@@ -23,7 +23,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="inline-block w-5 shrink-0 flex-0"
+                class="inline-block w-5 shrink-0 flex-0 text-gold-300"
               >
                 <path
                   stroke-linecap="round"
@@ -33,15 +33,18 @@
               </svg>
               <span class="w-full">{{ achievement }}</span>
             </p>
-            <div class="mb-4" x-on:click="showDetails = ! showDetails">
-              <span x-show="!showDetails">more details</span>
-              <span x-show="showDetails">hide details</span>
-            </div>
+            <!-- <div
+              class="p-2 mb-4 text-gray-500 rounded-sm cursor-pointer hover:text-gray-700"
+              x-on:click="showDetails = ! showDetails"
+            >
+              <span (click)="showDetails(index)" x-show="!showDetails">+ More details</span>
+              <span  (click)="hideDetails(index)">- Hide details</span>
+            </div> -->
           </div>
-          <div class="show-more" x-show="showDetails" x-transition.opacity>
+          <div class="py-2 mt-2 rounded-md">
             <nuxt-content
               :document="job"
-              class="w-full mx-auto text-sm text-gray-700 max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert"
+              class="w-full mx-auto text-xs text-gray-700 max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert"
             />
           </div>
         </div>

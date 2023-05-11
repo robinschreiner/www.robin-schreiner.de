@@ -1,41 +1,29 @@
 <template>
-  <ul v-if="posts.length > 0" class="flex flex-col gap-4 cards">
-    <li v-for="(post, index) in posts" :key="index">
-      <nuxt-link
-        :to="`/${postType}/${post.slug}`"
-        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-md hover:bg-gray-100"
-      >
+  <ul v-if="posts.length > 0" class="flex flex-col gap-8 cards">
+    <li v-for="(post, index) in posts" :key="index" class="">
+      <nuxt-link :to="`/${postType}/${post.slug}`" class="relative grid gap-8 transition rounded-md">
         <template v-if="postType === 'projects'">
-          <div class="grid gap-2 md:gap-4 md:grid-cols-2 odd:items-end group">
-            <div class="flex flex-col justify-center order-2 w-full md:order-1">
+          <div class="grid gap-2 transition transform md:gap-2 odd:items-end group hover:translate-x-2">
+            <div class="flex flex-col justify-end order-2 w-full md:order-1">
               <div class="mb-4">
-                <span class="text-xs font-medium text-gray-400">{{ post.category }}</span>
-                <h3 class="mt-2 font-semibold md:mt-4 text-md md:text-xl">{{ post.title }}</h3>
-                <p class="text-sm md:mt-2">{{ post.description }}</p>
+                <span class="text-xs font-medium text-gray-400 group-hover:scale-105">{{ post.category }}</span>
+                <h3 class="mt-2 font-semibold text-md md:text-xl">{{ post.title }}</h3>
+                <p class="text-sm">{{ post.description }}</p>
               </div>
-              <svg
-                viewBox="0 0 19 18"
-                class="w-4 h-4 transition group-hover:translate-x-2"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0.00819592 9.80702V8.19298L15.8976 8.19298L9.24414 1.53951L10.3919 0.391744L19.0002 9L10.3919 17.6083L9.24414 16.4605L15.8976 9.80702L0.00819592 9.80702Z"
-                  fill="currentColor"
-                />
-              </svg>
             </div>
-            <img v-if="post.cover" class="w-full cover-image aspect-square" :src="post.cover" />
+            <div v-if="post.cover" class="overflow-hidden aspect-w-16 aspect-h-9 md:aspect-w-6 md:aspect-h-3">
+              <img class="absolute inset-0 object-cover transition transform rounded-xl" :src="post.cover" />
+            </div>
           </div>
         </template>
 
         <template v-else>
-          <div class="w-full">
+          <div class="w-full transition transform group hover:translate-x-2">
             <span v-if="post.createdAt" class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full">
               {{ formatDate(post.createdAt) }}
             </span>
-            <h3 class="mt-4 font-semibold text-md md:text-xl">{{ post.title }}</h3>
-            <p class="mt-2 text-sm">{{ post.description }}</p>
+            <h3 class="mt-2 font-semibold text-md md:text-xl">{{ post.title }}</h3>
+            <p class="text-sm">{{ post.description }}</p>
           </div>
         </template>
       </nuxt-link>

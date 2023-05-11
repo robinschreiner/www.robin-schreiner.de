@@ -1,6 +1,7 @@
 <template>
   <main class="p-8 mx-auto max-w-7xl">
     <section v-if="jobs" class="w-full max-w-5xl mx-auto">
+      <h1 class="mb-8 text-2xl">Experience</h1>
       <cvitem post-type="jobs" :amount="10" />
     </section>
   </main>

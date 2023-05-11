@@ -17,16 +17,17 @@ body {
   margin: 0;
   padding: 0;
   height: -webkit-fill-available;
+  overflow-y: scroll;
 
   @apply transition-colors duration-200 ease-in-out;
 }
 
 nav li a {
-  @apply text-gray cursor-pointer hover:bg-gray-100 hover:text-gray-600 p-1 rounded transition;
+  @apply text-gray p-2 -mx-2 cursor-pointer hover:bg-gold-50 hover:text-gray-600 py-1 rounded transition font-medium;
 }
 
 nav .nuxt-link-exact-active {
-  @apply text-gray-900 bg-gray-300 hover:text-gray-900 hover:bg-gray-300 cursor-default p-1 rounded;
+  @apply text-gray-900 hover:text-gray-900 bg-gold-50 cursor-default;
 }
 
 h1,

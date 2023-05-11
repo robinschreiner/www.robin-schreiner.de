@@ -1,27 +1,37 @@
 <template>
-  <nuxt-link @click.native="to ? null : $router.go(-1)" :to="to ? to : '/'">
+  <div @click="hasHistory() ? $router.go(-1) : $router.push('/')" class="text-gray-700 hover:text-gray-800">
     <svg
       viewBox="0 0 32 32"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
-      class="inline w-6 h-6 transition flex-0 group-hover:translate-x-2"
+      class="inline w-8 h-8 transition flex-0"
     >
       <path
-        d="M 6.9804688 8.9902344 A 1.0001 1.0001 0 0 0 6.2929688 9.2929688 L 1.3808594 14.205078 A 1.0001 1.0001 0 0 0 1.3769531 15.792969 A 1.0001 1.0001 0 0 0 1.3828125 15.796875 L 6.2929688 20.707031 A 1.0001 1.0001 0 1 0 7.7070312 19.292969 L 4.4140625 16 L 28 16 A 1.0001 1.0001 0 1 0 28 14 L 4.4140625 14 L 7.7070312 10.707031 A 1.0001 1.0001 0 0 0 6.9804688 8.9902344 z"
+        d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"
         fill="currentColor"
-      ></path>
+      />
     </svg>
-    <slot>go back</slot>
-  </nuxt-link>
+  </div>
 </template>
+
+<!-- <script>
+export default {
+  data() {
+    return {
+      path: '/',
+    }
+  },
+  created() {
+    if (this.$nuxt?.context?.from?.path) this.path = this.$nuxt.context.from.path
+  },
+}
+</script> -->
 
 <script>
 export default {
-  props: {
-    to: {
-      // ? Override with a path instead of router back
-      type: String,
-      default: '',
+  methods: {
+    hasHistory() {
+      return window.history.length > 2
     },
   },
 }

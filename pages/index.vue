@@ -20,14 +20,14 @@
     </section>
 
     <div class="grid gap-8 md:grid-cols-2">
-      <section class="mt-16">
-        <h2 class="my-8 md:text-xl md:my-16">Projects</h2>
-        <thoughts post-type="projects" :image="false" :amount="3" />
+      <section class="mt-4">
+        <h2 class="my-8 md:text-xl md:my-8">Projects</h2>
+        <thoughts post-type="projects" :showDetails="false" :showDate="false" :image="false" :amount="3" />
       </section>
 
-      <section class="mt-16">
-        <h2 class="my-8 md:text-xl md:my-16">Thoughts</h2>
-        <thoughts post-type="thoughts" :amount="3" />
+      <section class="mt-4">
+        <h2 class="my-8 md:text-xl md:my-8">Thoughts</h2>
+        <thoughts post-type="thoughts" :showDetails="false" :amount="3" />
       </section>
     </div>
   </main>

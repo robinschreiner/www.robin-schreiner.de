@@ -25,7 +25,7 @@
             />
           </svg>
         </div>
-        <img v-if="project.cover" class="cover-image" :src="project.cover" />
+        <img v-if="project.cover" class="cover-image group-hover:scale-105" :src="project.cover" />
       </nuxt-link>
     </li>
   </ul>

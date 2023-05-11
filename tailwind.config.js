@@ -19,7 +19,7 @@ module.exports = {
         headerMobile: '1fr auto',
       },
       fontFamily: {
-        brand: ['Apercu, SuisseIntl, sans-serif'],
+        brand: ['Apercu, Inter, sans-serif'],
         sans: ['Inter, sans-serif'],
         // sans: [
         //   'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
@@ -57,7 +57,7 @@ module.exports = {
           900: 'var(--color-primary-900)', // #0D131E
         },
         gold: {
-          050: 'var(--color-gold-050)', // #4B4435
+          50: 'var(--color-gold-50)', // #F1f1f1
           100: 'var(--color-gold-100)', // #6E5A32
           200: 'var(--color-gold-200)', // #987328
           300: 'var(--color-gold-300)', // #C88E17
@@ -78,7 +78,16 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      fontWeight: ['responsive', 'hover', 'focus'],
+      opacity: ['hover'],
+      borderColor: ['hover', 'focus'],
+      margin: ['first', 'last'],
+      backgroundColor: ['odd', 'even'],
+      scale: ['hover', 'active', 'group-hover'],
+    },
+  },
   corePlugins: {
     aspectRatio: false,
   },

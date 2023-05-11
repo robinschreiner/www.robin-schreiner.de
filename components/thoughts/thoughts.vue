@@ -1,16 +1,19 @@
 <template>
-  <ul v-if="posts.length > 0" class="flex flex-col gap-4 cards">
+  <ul v-if="posts.length > 0" class="flex flex-col gap-1 cards">
     <li v-for="(post, index) in posts" :key="index">
       <nuxt-link
         :to="`/${postType}/${post.slug}`"
-        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-md hover:bg-gray-100"
+        class="relative grid gap-4 p-2 py-2 -mx-2 transition rounded-md hover:bg-gray-100"
       >
         <div class="w-full">
-          <span v-if="post.createdAt" class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full">
+          <span
+            v-if="post.createdAt && showDate"
+            class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full"
+          >
             {{ formatDate(post.createdAt) }}
           </span>
           <h3 class="font-semibold text-md md:text-xl">{{ post.title }}</h3>
-          <p class="mt-2 text-sm">{{ post.description }}</p>
+          <p v-if="showDetails" class="mt-2 text-sm">{{ post.description }}</p>
         </div>
       </nuxt-link>
     </li>
@@ -32,6 +35,14 @@
 export default {
   name: 'Posts',
   props: {
+    showDate: {
+      type: Boolean,
+      default: true,
+    },
+    showDetails: {
+      type: Boolean,
+      default: true,
+    },
     postType: {
       type: String,
       default: 'thoughts',

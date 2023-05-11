@@ -1,42 +1,3 @@
-/*******/
-@font-face {
-  font-family: 'SuisseIntl';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SuisseIntl';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-Regular.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SuisseIntl';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-Medium.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SuisseIntl-';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-SemiBold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SuisseIntl';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SuisseIntl';
-  src: url('~static/fonts/SuisseIntl/SuisseIntl-Black.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-}
-
 /* ===== APERCU ===== */
 /* - Light 300
 ** - Light Italic 300
@@ -144,18 +105,57 @@
   font-style: italic;
 }
 
-.blog h1 {
-  @apply mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl;
+.content h1 {
+  @apply mt-8 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl mb-4;
 }
 
-.blog h2 {
-  @apply text-2xl font-bold tracking-tight text-gray-900;
+.content h2 {
+  @apply text-2xl font-semibold tracking-tight text-gray-900 mt-8 mb-4;
+}
+
+.content h3 {
+  @apply text-xl font-medium tracking-tight text-gray-900 mt-4  mb-2;
+}
+
+.content h4 {
+  @apply text-base font-medium tracking-tight text-gray-400 italic mt-2 mb-1;
+}
+
+.content p {
+  @apply my-4 text-gray-800 font-medium;
+}
+
+.content img {
+  @apply my-8 rounded-lg;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content ul,
+.content p,
+.content pre,
+.content code {
+  @apply mx-auto max-w-3xl;
+}
+
+.content p:has(img) {
+  @apply mx-auto max-w-7xl;
 }
 
 .nuxt-content ul {
-  @apply list-disc p-4 text-sm text-gray-600;
+  @apply list-disc p-4 text-gray-600;
 }
 
 .nuxt-content li {
   @apply pb-2;
+}
+
+blockquote {
+  @apply p-4 my-8 border-l-4 text-xl font-bold border-gray-300;
+}
+
+blockquote p {
+  margin: 0 !important;
 }
