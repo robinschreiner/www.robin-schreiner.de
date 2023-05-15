@@ -129,6 +129,11 @@
   @apply my-8 rounded-lg;
 }
 
+.content .no-padding img,
+.content .no-padding p {
+  @apply my-0;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -137,6 +142,10 @@
 .content p,
 .content pre,
 .content code {
+  @apply mx-auto max-w-3xl;
+}
+
+.content blockquote {
   @apply mx-auto max-w-3xl;
 }
 
@@ -153,7 +162,7 @@
 }
 
 blockquote {
-  @apply p-4 my-8 border-l-4 text-xl font-bold border-gray-300;
+  @apply p-4 my-8 border-l-4 text-xl font-bold border-primary-200;
 }
 
 blockquote p {

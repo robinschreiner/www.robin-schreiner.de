@@ -1,7 +1,7 @@
 ---
-createdAt: 2023-04-29
-title: The Ultimate Reading List for UX Enthusiasts
-description: My comprehensive list of books that every UX designer or enthusiast should read.
+createdAt: 2023-05-02
+title: My crystal ball – 5 UX trends to watch out for in 2023
+description: My thoughts on the future of UX design and technology, highlighting five trends that are likely to become increasingly important in the coming years. From voice interfaces to augmented reality, we'll examine what these trends mean for UX professionals and how they can stay ahead of the curve.
 ---
 
 As a UX designer, it's important to stay ahead of the curve and anticipate the trends that will shape the future of our field. Here are five trends that I predict will be significant in 2023 and beyond:
