@@ -14,7 +14,7 @@
         <img
           src="~assets/images/robin-schreiner.jpg"
           alt="Portrait for Robin Schreiner"
-          class="object-cover w-full h-full rounded-lg"
+          class="object-cover w-full h-full rounded-lg no-zoom"
         />
       </figure>
     </section>

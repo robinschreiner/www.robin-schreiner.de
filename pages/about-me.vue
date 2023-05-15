@@ -28,7 +28,7 @@
         </p>
       </div>
       <figure v-for="(image, index) in images" class="aspect-w-1 aspect-h-1">
-        <img :key="index" :src="image.pathLong" alt="" class="object-cover rounded-md" />
+        <img :key="index" :src="image.pathLong" alt="" class="object-cover rounded-md zoom" />
       </figure>
       <!-- <div class="grid w-full grid-cols-2 gap-2 wrapper md:grid-cols-2">
         <figure v-for="(image, index) in images" class="aspect-w-1 aspect-h-1">
@@ -51,7 +51,7 @@
         :href="unsplashImage.links.html"
         target="_blank"
         v-for="(unsplashImage, index) in unsplashImages.images"
-        class="aspect-w-1 aspect-h-1"
+        class="aspect-w-1 aspect-h-1 zoom"
       >
         <img :key="index" :src="unsplashImage.urls.small" :alt="unsplashImage.alt" class="object-cover rounded-md" />
       </a>

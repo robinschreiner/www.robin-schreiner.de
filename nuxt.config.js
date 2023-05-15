@@ -49,7 +49,7 @@ export default {
       src: '~assets/js/alpine.min.js',
     },
   ],
-  plugins: ['~/plugins/vue-content-placeholders.js'],
+  plugins: ['~/plugins/vue-content-placeholders.js', '~/plugins/medium-zoom'],
   /*
    ** Nuxt.js dev-modules
    */
