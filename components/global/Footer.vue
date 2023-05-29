@@ -7,21 +7,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      headerText: '',
-    }
-  },
-  created() {
-    const { name } = this.$route
-    if (name === 'PageOne') {
-      this.headerText = 'Text for Page One'
-    } else if (name === 'PageTwo') {
-      this.headerText = 'Text for Page Two'
-    }
-  },
-}
-</script>

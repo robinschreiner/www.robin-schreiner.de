@@ -1,15 +1,17 @@
 <template>
-  <div @click="hasHistory() ? $router.go(-1) : $router.push('/')" class="text-gray-700 hover:text-gray-800">
+  <div
+    @click="hasHistory() ? $router.go(-1) : $router.push('/')"
+    class="p-4 -m-4 text-gray-700 cursor-pointer hover:text-gray-800 hover:bg-gray-50"
+  >
     <svg
-      viewBox="0 0 32 32"
-      fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
-      class="inline w-8 h-8 transition flex-0"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6"
     >
-      <path
-        d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"
-        fill="currentColor"
-      />
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
     </svg>
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <main class="p-8 mx-auto max-w-7xl">
-    <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="mb-8 text-2xl">Projects</h1>
-      <posts post-type="projects" :amount="10" />
+    <section v-if="projects" class="w-full max-w-5xl mx-auto">
+      <h1 class="mb-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">Projects</h1>
+      <projects :amount="10" />
     </section>
   </main>
 </template>
@@ -13,13 +13,13 @@ export default {
     title: 'Robin Schreiner – Projects.',
   },
   async asyncData({ $content, error }) {
-    let posts
+    let projects
     try {
-      posts = await $content('projects').fetch()
+      projects = await $content('projects').fetch()
     } catch (e) {
       error({ message: 'Project not found' })
     }
-    return { posts }
+    return { projects }
   },
 }
 </script>

@@ -3,29 +3,15 @@
     <li v-for="(project, index) in projects" :key="index">
       <nuxt-link
         :to="`/${postType}/${project.slug}`"
-        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-md opacity-100 group bg-contrast-hover card card--clickable"
+        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-lg opacity-100 lg:grid-cols-2 group hover:bg-gray-50 bg-contrast-hover card card--clickable"
       >
-        <div class="grid grid-cols-2 gap-4">
-          <div class="">{{ project.category }}</div>
-          <div class="text-lg">{{ project.title }}</div>
+        <div class="flex flex-col lg:mb-4">
+          <div class="items-center text-xl font-semibold group-hover:underline">{{ project.title }}</div>
+          <div class="text-sm text-gray-500">{{ project.category }}</div>
         </div>
-        <div class="grid items-baseline gap-4 pr-4 grid-cols-headerMobile">
-          <div class="text-xl">
-            {{ project.description }}
-          </div>
-          <svg
-            viewBox="0 0 19 18"
-            class="w-4 h-4 transition flex-0 group-hover:translate-x-2"
-            fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0.00819592 9.80702V8.19298L15.8976 8.19298L9.24414 1.53951L10.3919 0.391744L19.0002 9L10.3919 17.6083L9.24414 16.4605L15.8976 9.80702L0.00819592 9.80702Z"
-              fill="currentColor"
-            />
-          </svg>
+        <div class="aspect-w-16 aspect-h-9">
+          <img v-if="project.cover" class="object-cover group-hover:scale-105 no-zoom" :src="project.cover" />
         </div>
-        <img v-if="project.cover" class="cover-image group-hover:scale-105" :src="project.cover" />
       </nuxt-link>
     </li>
   </ul>

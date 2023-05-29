@@ -3,18 +3,12 @@
     <li v-for="(post, index) in posts" :key="index">
       <nuxt-link
         :to="`/${postType}/${post.slug}`"
-        class="relative grid gap-4 p-2 py-2 -mx-2 transition rounded-md hover:bg-gray-100"
+        class="relative flex items-center justify-between w-full gap-4 p-2 py-2 -mx-2 transition rounded-md hover:bg-gray-100 group"
       >
-        <div class="w-full">
-          <span
-            v-if="post.createdAt && showDate"
-            class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full"
-          >
-            {{ formatDate(post.createdAt) }}
-          </span>
-          <h3 class="font-semibold text-md md:text-xl">{{ post.title }}</h3>
-          <p v-if="showDetails" class="mt-2 text-sm">{{ post.description }}</p>
-        </div>
+        <p class="items-center font-medium transition font-body group-hover:underline">{{ post.title }}</p>
+        <span v-if="post.createdAt && showDate" class="font-mono text-sm text-gray-500 whitespace-no-wrap">
+          {{ formatDate(post.createdAt) }}
+        </span>
       </nuxt-link>
     </li>
   </ul>

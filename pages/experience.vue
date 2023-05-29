@@ -46,7 +46,7 @@
             </p>
           </div>
           <h4 class="sr-only">Responsibilities</h4>
-          <ul role="list" class="p-4 space-y-2 text-sm leading-6 opacity-70">
+          <ul role="list" class="hidden p-4 space-y-2 text-sm leading-6 opacity-70">
             <li class="flex gap-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +274,7 @@
             </p>
           </div>
           <h4 class="sr-only">Responsibilities</h4>
-          <ul role="list" class="p-4 space-y-2 text-sm leading-6 opacity-70">
+          <ul role="list" class="hidden p-4 space-y-2 text-sm leading-6 opacity-70">
             <li class="flex gap-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -501,7 +501,7 @@
               Transition from Adobe Photoshop to Sketch increased efficiency by 25 %.
             </p>
           </div>
-          <ul role="list" class="p-4 space-y-2 text-sm leading-6 opacity-70">
+          <ul role="list" class="hidden p-4 space-y-2 text-sm leading-6 opacity-70">
             <li class="flex gap-x-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

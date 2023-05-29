@@ -1,6 +1,6 @@
 ---
 createdAt: 2023-05-02
-title: My reading list for UX enthusiasts
+title: A reading list for UX enthusiasts
 description: Whether you're just starting out in the UX field or are an experienced professional, I don't want you to make the same mistake I did by underestimating the power of a good book. That's why I've compiled this reading list.
 ---
 
@@ -15,7 +15,7 @@ The Design of Everyday Things is a timeless classic that every designer should r
 
 > Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so well that the design is invisible. Bad design, on the other hand, screams out its inadequacies, making itself very noticeable.
 
-[Get it here](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+<a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Don't Make Me Think
 
@@ -28,7 +28,7 @@ Don't Make Me Think is an essential guide for anyone involved in web design. It 
 
 > Usability is about people and how they understand and use things, not about technology.
 
-[Get it here](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
+<a href="https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Thinking, Fast and Slow
 
@@ -41,7 +41,7 @@ Thinking, Fast and Slow is a fascinating exploration of the human mind and the w
 
 > We can be blind to the obvious, and we are also blind to our blindness.
 
-[Get it here](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+<a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Lean UX
 
@@ -53,7 +53,7 @@ In Lean UX, Jeff Gothelf presents a new approach to UX design that focuses on co
 
 > We’re here to make things people want. That’s why we’re practicing Lean UX. And we’re not just practicing it in the design phase. We’re practicing it from strategy through post-release. Everything is fair game.
 
-[Get it here](https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652/)
+<a href="https://www.amazon.com/Lean-UX-Applying-Principles-Experience/dp/1449311652/" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Rocket Surgery Made Easy
 
@@ -65,7 +65,7 @@ Rocket Surgery Made Easy is a practical guide to usability testing. Steve Krug, 
 
 > If you don't have a lot of experience with usability testing, the prospect of doing it yourself can be a bit daunting. This book shows you that it doesn't have to be that way.
 
-[Get it here](https://www.amazon.com/Rocket-Surgery-Made-Easy-Do-It-Yourself/dp/0321657292/)
+<a href="https://www.amazon.com/Rocket-Surgery-Made-Easy-Do-It-Yourself/dp/0321657292/" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Sprint
 
@@ -79,7 +79,7 @@ If you're looking for a practical guide to problem-solving, Sprint is an excelle
 > A sprint is a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
 > ― Jake Knapp
 
-[Get it here](https://www.amazon.com/dp/B010MH10S8)
+<a href="https://www.amazon.com/dp/B010MH10S8" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Rework
 
@@ -93,7 +93,7 @@ If you're looking for a fresh perspective on business, Rework is a must-read. Th
 > Working more doesn't mean you care more or get more done. It just means you work more.
 > ― Jason Fried and David Heinemeier Hansson
 
-[Get it here](https://www.amazon.com/dp/B002MUAJ2A)
+<a href="https://www.amazon.com/dp/B002MUAJ2A" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Creative Confidence
 
@@ -104,9 +104,9 @@ If you're looking for a fresh perspective on business, Rework is a must-read. Th
 Creative Confidence is a guide to unlocking your creativity. It emphasizes the importance of taking risks and overcoming fear, and provides practical tools for generating ideas and turning them into reality. The book also explores the link between creativity and innovation, and argues that anyone can be creative if they are willing to take a chance.
 If you're looking to tap into your creative potential, Creative Confidence is an excellent resource. The book provides practical advice and inspiring stories that will help you overcome fear and take risks.
 
-> Creative confidence is like a muscle—the more we use it, the stronger it gets.\n― Tom Kelley and David Kelley
+> Creative confidence is like a muscle—the more we use it, the stronger it gets ― Tom Kelley and David Kelley
 
-[Get it here](https://www.amazon.com/dp/B00B3M3AV2)
+<a href="https://www.amazon.com/dp/B00B3M3AV2" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Build Better Products: A Modern Approach to Building Successful User-Centered Products
 
@@ -118,7 +118,7 @@ Build Better Products is a comprehensive guide to product development that empha
 
 > The best way to build a successful product is to focus on the user. This book shows you how to do that, step by step.
 
-[Get it here](https://www.amazon.com/Build-Better-Products-Successful-User-Centered/dp/193382039X/)
+<a href="https://www.amazon.com/Build-Better-Products-Successful-User-Centered/dp/193382039X/" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## The War of Art: Break Through the Blocks and Win Your Inner Creative Battles
 
@@ -130,7 +130,7 @@ This book emphasizes on breaking through the obstacles that prevent creative peo
 
 > The most important thing about art is to work. Nothing else matters except sitting down every day and trying.
 
-[Get it here](https://www.amazon.com/dp/1936891026)
+<a href="https://www.amazon.com/dp/1936891026" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Universal Principles of Design
 
@@ -142,7 +142,7 @@ This easy-to-read reference book is packed with useful tips on how to design pro
 
 > Simplicity is achieved when everyone can easily understand and use the design, regardless of experience, literacy, or concentration level.
 
-[Get it here](https://www.amazon.de/-/en/Jill-Butler/dp/1592530079)
+<a href="https://www.amazon.de/-/en/Jill-Butler/dp/1592530079" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 ## Hooked: How to Build Habit-Forming Products
 
@@ -152,7 +152,7 @@ In the Book, Eyal outlines the four-step process—trigger (action, variable rew
 
 > To change behavior, products must ensure the user feels in control. People must want to use the service, not feel they have to.
 
-[Get it here](https://www.amazon.de/Hooked-How-Build-Habit-Forming-Products/dp/0241184835/ref=pd_rhf_d_dp_s_ci_mcx_mr_hp_d_sccl_1_7/258-3581523-2500603?pd_rd_w=mBSnH&content-id=amzn1.sym.8c979d3c-f50f-4a8a-86fa-6c5d83a983f7&pf_rd_p=8c979d3c-f50f-4a8a-86fa-6c5d83a983f7&pf_rd_r=V7FM83V600DDW7KR82BQ&pd_rd_wg=pl5Dm&pd_rd_r=21a6114e-80c0-4c4f-aa2e-729c9116bf5b&pd_rd_i=0241184835&psc=1)
+<a href="https://www.amazon.de/Hooked-How-Build-Habit-Forming-Products/dp/0241184835/ref=pd_rhf_d_dp_s_ci_mcx_mr_hp_d_sccl_1_7/258-3581523-2500603pd_rd_w=mBSnH&content-id=amzn1.sym.8c979d3c-f50f-4a8a-86fa-6c5d83a983f7&pf_rd_p=8c979d3c-f50f-4a8a-86fa-6c5d83a983f7&pf_rd_r=V7FM83V600DDW7KR82BQ&pd_rd_wg=pl5Dm&pd_rd_r=21a6114e-80c0-4c4f-aa2e-729c9116bf5b&pd_rd_i=0241184835&psc=1" class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline">Get it here</a>
 
 # So much for mostly classics
 

@@ -41,7 +41,7 @@
               <span  (click)="hideDetails(index)">- Hide details</span>
             </div> -->
           </div>
-          <div class="py-2 mt-2 rounded-md">
+          <div class="hidden py-2 mt-2 rounded-md">
             <nuxt-content
               :document="job"
               class="w-full mx-auto text-xs text-gray-700 max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert"
