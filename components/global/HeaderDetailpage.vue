@@ -7,6 +7,8 @@
             src="images/robin-schreiner2.jpg"
             :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-full no-zoom' }"
             placeholder
+            width="3.5rem"
+            height="3.5rem"
             alt="Portrait for Robin Schreiner"
           />
         </figure>

@@ -1,6 +1,6 @@
 <template>
   <main class="p-8 mx-auto space-y-8 max-w-7xl">
-    <section class="grid w-full max-w-5xl gap-2 mx-auto md:grid-cols-2">
+    <section class="grid w-full gap-2 mx-auto max-w-7xl md:grid-cols-2">
       <section class="self-start w-full pr-16 top-24 max-w-7xl">
         <h1 class="mb-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">About me</h1>
         <h2 class="max-w-3xl mb-8 font-sans text-xl text-gray-500">
@@ -19,7 +19,7 @@
       </figure>
     </section>
 
-    <section class="grid w-full max-w-5xl grid-cols-2 gap-2 mx-auto md:grid-cols-4">
+    <section class="grid w-full grid-cols-2 gap-2 mx-auto max-w-7xl md:grid-cols-4">
       <div class="self-center w-full col-span-2 py-8 pr-16 top-24 max-w-7xl">
         <p class="mb-8 text-lg">
           When I am not working, I love doing sports, work on sideprojects or enjoy having a good times with friends &
@@ -36,7 +36,7 @@
           Since I was a child, I have had a deep appreciation and love for photography. I have been fortunate enough to
           have some of my images featured on Unsplash including mostly black and white shots of nature and architecture.
         </p>
-        <p>Take a moment and see the world through my lens.</p>
+        <p class="mb-8 text-lg">Take a moment and see the world through my lens.</p>
       </div>
       <a
         :href="unsplashImage.links.html"

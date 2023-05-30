@@ -1,6 +1,6 @@
 <template>
   <main class="p-8 mx-auto max-w-7xl">
-    <section v-if="posts" class="w-full max-w-5xl mx-auto">
+    <section v-if="posts" class="w-full mx-auto max-w-7xl">
       <h1 class="mb-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">Thoughts</h1>
       <thoughts :amount="10" />
     </section>
