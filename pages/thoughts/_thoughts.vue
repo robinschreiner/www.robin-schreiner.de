@@ -6,7 +6,9 @@
           <h5 v-if="post.createdAt" class="text-lg font-semibold leading-8 tracking-tight text-gray-400">
             {{ formatDate(post.createdAt) }}
           </h5>
-          <h1 class="my-4 mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ post.title }}</h1>
+          <h1 class="my-4 mb-8 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
+            {{ post.title }}
+          </h1>
           <p class="mt-2 text-xl leading-8 text-gray-700">{{ post.description }}</p>
         </header>
         <div v-if="post.cover" class="my-8 aspect-w-16 aspect-h-9 rounded-xl bg-gray-50">
@@ -20,8 +22,10 @@
             <ul>
               <li
                 :class="{
-                  'ml-2 text-xs': link.depth === 3,
+                  'ml-0 text-lg': link.depth === 1,
                   'ml-0 text-sm': link.depth === 2,
+                  'ml-2 text-xs hidden': link.depth === 3,
+                  'ml-4 text-xs hidden': link.depth === 4,
                 }"
                 class="toc-list"
                 v-for="link of post.toc"

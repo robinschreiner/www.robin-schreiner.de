@@ -13628,6 +13628,11 @@
   "resolved" "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
   "version" "1.0.1"
 
+"nuxt-matomo@^1.2.4":
+  "integrity" "sha512-09cIWnj6v58CMbEDS+mVTnJ97BaO/fJaQDPk31sa27jejcD80bIvNowkAJMj4OcVWMeeIVTljClMHE6249cFtw=="
+  "resolved" "https://registry.npmjs.org/nuxt-matomo/-/nuxt-matomo-1.2.4.tgz"
+  "version" "1.2.4"
+
 "nuxt-purgecss@^1.0.0":
   "integrity" "sha512-gu6CUd+oA738Gqyl8P16HmnvreuslKVrn8tTJnjCut6OOC3pRrxqct6sAad0sxDk2fULVdeGb7V/mxo8qKisPQ=="
   "resolved" "https://registry.npmjs.org/nuxt-purgecss/-/nuxt-purgecss-1.0.0.tgz"
