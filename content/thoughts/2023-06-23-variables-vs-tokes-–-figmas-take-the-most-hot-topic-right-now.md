@@ -9,7 +9,7 @@ description: It seems that every one is talking about nothing else than Design
 ---
 F﻿igma surprised (almost) everyone by releasing the [beta of so-called variables](https://help.figma.com/hc/en-us/articles/15336833927191-What-s-new-at-Config-2023#Variables_open_beta) with modes.  S﻿o, no Design Tokens? Or is Variables just their name for Design Tokens? And what are modes? 
 
-# Design Tokens Definition
+## Design Tokens Definition
 
 I﻿ try to bring some light into the discussion and show why my first disappointment developed into excitement for all the possibility that come up. Right now, Design Tokens are in the process to get a W3C specification. The Design Tokens Community Group's goal is to provide standards upon which products and design tools can rely for sharing stylistic pieces of a design system at scale.
 
@@ -23,7 +23,7 @@ F﻿igma describes Variables like this:
 
 S﻿o, basically they are Design Tokes. But why did Figma not just simply follow the DTCGs new Standard? They said, that they don't want to call them that way because they do not have implemented the standard completely and want to prevent confusion - well done.
 
-# Difference in day-to-day
+## Difference in day-to-day
 
 O﻿key, so Figma called Design Tokes the other way around. Where is the difference when working with it in my layouts? 
 
