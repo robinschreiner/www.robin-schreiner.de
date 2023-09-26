@@ -1,6 +1,6 @@
 ---
 createdAt: 2023-04-01
-title: Empty States – Overlooked UX-Hero
+title: Empty States – the overlooked UX-Hero
 description: What could make a better topic for my first entry than ... empty states ?
 cover: /images/thoughts/2023-04-01-empty-states–the-overlooked-hero-of-ux.jpg
 ---
