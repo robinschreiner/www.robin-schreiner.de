@@ -20,7 +20,8 @@
     "axios": "^1.4.0",
     "medium-zoom": "^1.0.8",
     "nuxt": "^2.16.3",
-    "nuxt-matomo": "^1.2.4"
+    "nuxt-matomo": "^1.2.4",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.1.1",

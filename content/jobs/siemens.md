@@ -1,16 +1,15 @@
 ---
-title: Chief Product Officer
-company: be+
-createdAt: 2023-01-03
-duration: October 2020 – September 2023
+title: UX Manager
+company: SIEMENS
+createdAt: 2023-09-15
+duration: September 2023 – Today
 short: Responsibility for the overall experience, development and strategy of be+ as well as Creative Direction, UX and Design of be+ applications, brand and marketing.
 achievements:
-  - Creating a fundamentally new way of selling finance products.
-  - Build a Product from Idea to Launch
-  - Recognized for the outstanding design.
+  - Product Owner for the Gravity Design System
+  - Part of T UX - 1 of 15 Technologie fields at SIEMENS
 ---
 
-- P Governance and Maintenance
+- Responsibility for the overall experience, development and strategy of be+
 - Responsible for Creative Direction, UX and Design of be+ applications, brand and marketing.
 - Development of a future-proof roadmap and product strategy.
 - Regular Negotiations and discussions with Customer C-Levels

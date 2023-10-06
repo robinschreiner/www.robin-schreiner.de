@@ -1,10 +1,14 @@
 ---
 createdAt: 2023-05-01
-title: The ethical dilemma of UX design
-description: As a UX designers you might sooner or later face ethical challenges when balancing the needs of clients or employers vs. the needs of users. At least thats what happend to me and all my teams before. I collected some ethical steppingstones I stumbled upon when creating products before.
+title: Balancing UX, Design, and Ethics in Digital Tech
+description: In the age of mobile tech expansion, where time and focus are limited resources, ethical considerations become paramount. I want to talk about doing the right thing as we explore digital technology.
 ---
 
-## What Do Ethics Have to do with User Experience Design?
+In today's fast-moving world, mobile technology is changing how we live, work, and stay connected. Our smartphones and countless apps are now a big part of our daily lives. But as mobile tech keeps growing, there's a problem: we don't have much time or focus, thanks to all the digital stuff around us.
+
+I want to talk about doing the right thing as we explore digital technology. I'll look at how we can make tech that's both creative and good for people. I'll show you how thinking about what's right can help us use tech in a way that makes our lives better while keeping our time and focus safe. Join us as we learn how to make the most of mobile tech while keeping things simple and ethical for everyone.
+
+## What Do Ethics have to do with User Experience Design?
 
 Professional ethics exists in nearly all fields, but how does is it in user experience design? What can designers do to provide users with products that put their interests up front. As UX and product experts, we have a responsibility to create products and services that are not only usable and engaging, but also ethical and socially responsible.
 

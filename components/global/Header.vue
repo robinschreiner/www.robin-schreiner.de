@@ -2,43 +2,24 @@
   <header class="grid gap-8 p-8 grid-cols-headerMobile md:grid-cols-2">
     <div class="logo">
       <nuxt-link class="flex items-center gap-2 transition opacity-100 cursor-pointer hover:opacity-80" to="/">
-        <figure class="w-14 h-14">
-          <nuxt-picture
-            src="images/robin-schreiner2.jpg"
-            :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-full no-zoom' }"
-            placeholder
-            width="3.5rem"
-            height="3.5rem"
-            alt="Portrait for Robin Schreiner"
-          />
-        </figure>
+        <!-- <figure class="w-14 h-14">
+          <nuxt-picture src="images/robin-schreiner4.jpg"
+            :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-full no-zoom' }" placeholder
+            width="3.5rem" height="3.5rem" alt="Portrait for Robin Schreiner" />
+        </figure> -->
         <h1 class="flex flex-col font-sans">
           <span class="font-semibold">Robin Schreiner </span>
           <span class="opacity-50 font-base">Product Leader</span>
-        </h1></nuxt-link
-      >
+        </h1>
+      </nuxt-link>
     </div>
     <div class="flex items-center justify-end p-4 -m-4 cursor-pointer md:hidden" @click="open = !open">
-      <svg
-        v-if="!open"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
+      <svg v-if="!open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
-      <svg
-        v-if="open"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
+      <svg v-if="open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
       </svg>
     </div>

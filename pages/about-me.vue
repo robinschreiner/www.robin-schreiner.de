@@ -9,13 +9,10 @@
           as much as possible.
         </h2>
       </section>
-      <figure class="aspect-w-16 aspect-h-9">
-        <nuxt-picture
-          src="images/robin-schreiner2.jpg"
-          :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-lg no-zoom' }"
-          placeholder
-          alt="Portrait for Robin Schreiner"
-        />
+      <figure class="aspect-w-16 aspect-h-10">
+        <nuxt-picture src="images/robin-schreiner4.jpg"
+          :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-lg no-zoom' }" placeholder
+          alt="Portrait for Robin Schreiner" />
       </figure>
     </section>
 
@@ -30,26 +27,17 @@
         <img :key="index" :src="image.pathLong" alt="" class="object-cover rounded-md zoom" />
       </figure>
       <div
-        class="self-start self-center w-full col-span-2 py-8 pl-16 text-center text-right md:col-span-3 top-24 max-w-7xl"
-      >
+        class="self-start self-center w-full col-span-2 py-8 pl-16 text-center text-right md:col-span-3 top-24 max-w-7xl">
         <p class="mb-8 text-lg">
           Since I was a child, I have had a deep appreciation and love for photography. I have been fortunate enough to
           have some of my images featured on Unsplash including mostly black and white shots of nature and architecture.
         </p>
         <p class="mb-8 text-lg">Take a moment and see the world through my lens.</p>
       </div>
-      <a
-        :href="unsplashImage.links.html"
-        target="_blank"
-        v-for="(unsplashImage, index) in unsplashImages.images"
-        class="aspect-w-1 aspect-h-1 no-zoom hover:opacity-80"
-      >
-        <img
-          :key="index"
-          :src="unsplashImage.urls.small"
-          :alt="unsplashImage.alt"
-          class="object-cover rounded-md no-zoom"
-        />
+      <a :href="unsplashImage.links.html" target="_blank" v-for="(unsplashImage, index) in unsplashImages.images"
+        class="aspect-w-1 aspect-h-1 no-zoom hover:opacity-80">
+        <img :key="index" :src="unsplashImage.urls.small" :alt="unsplashImage.alt"
+          class="object-cover rounded-md no-zoom" />
       </a>
     </section>
   </main>
