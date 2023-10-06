@@ -7,8 +7,6 @@ description: When we talk about usability testing, trust is like the secret
 ---
 I guess we all aggree that trust is important. So, how do we build that trust? Well, it's a step-by-step thing that happens before, during, and after the testing session.
 
-
-
 ## **Before the Testing Session**
 
 1. **Clear Communication**: It all begins with good communication. We need to explain to participants why we've invited them, what the testing is all about, and what we expect from them.
@@ -21,10 +19,11 @@ I guess we all aggree that trust is important. So, how do we build that trust? W
 1. **Warm Welcome**: We start the session with a friendly welcome, appreciating their willingness to participate. A positive tone always goes a long way.
 2. **Provide Guidance**: We explain what's going to happen, the tasks they'll do, and any specific scenarios. We're there to guide them and answer questions.
 3. **Encourage Openness**: We want them to feel comfortable sharing their thoughts openly. We stress that there are no right or wrong answers, and their opinions and personal experiences are gold.
-4. **Active Listening**: We listen actively, showing that we value what they say. Whether it's praise or criticism, we acknowledge and respect their input and either encurage them to continue trought open questions or guide them in another direction using closed questions.
+4. **Active Listening**: We listen actively, showing that we value what they say. Whether it's praise or criticism, we acknowledge and respect their input. 
+5. **Facilitate the Discussion:** During the session, we have two big tools. First, encourage participants to share their thoughts by asking open questions. Second, use closed questions to guide them in a specific direction.
 
 ## **After the Testing Session**
 
 We don't just say goodbye and forget. It all begins with a simple 'thank you' to my participants. I want them to know how much we appreciate their valuable insights. And if we can, we share with them how their ideas and feedback actually enabled improvments. Build a relationship. Make them feel like rock stars! 
 
-But here's the really cool part - when we build these trusty relationships, participants are more likely to contribute again in the future. Plus, they become our advocates and tell their colleagues or partners about their experience. So, it keeps things rolling smoothly and makes it easier to onboard and recruit others for future interviews, creating a positive cycle of trust and engagement.
+But here's the really cool part - when we build these trusty relationships, participants are more likely to contribute again in the future. Plus, they become our advocates and tell their colleagues or partners about their experience. This helps everything run smoothly and makes it simpler to bring in new people for future interviews. It creates a good cycle of trust and involvement.
