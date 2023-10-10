@@ -35,16 +35,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.font-brand {
-  font-family: var(--font-brand);
+h6 {
+  @apply font-brand;
 }
 
-.font-sans {
-  font-family: var(--font-sans);
-}
-
-a[href*="//"]:not([href*="robin-schreiner.de"]) {
+a[href*="//"]:not([href*="robin-schreiner.de"]),
+a[href^='tel']::after,
+a[href^='mailto']::after {
   @apply underline;
 }
 
