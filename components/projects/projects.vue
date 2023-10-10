@@ -1,12 +1,10 @@
 <template>
   <ul v-if="projects.length > 0" class="flex flex-col gap-4 cards">
     <li v-for="(project, index) in projects" :key="index">
-      <nuxt-link
-        :to="`/${postType}/${project.slug}`"
-        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-lg opacity-100 lg:grid-cols-2 group hover:bg-gray-50 bg-contrast-hover card card--clickable"
-      >
+      <nuxt-link :to="`/${postType}/${project.slug}`"
+        class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-lg opacity-100 lg:grid-cols-2 group hover:bg-gray-50 bg-contrast-hover card card--clickable">
         <div class="flex flex-col lg:mb-4">
-          <div class="items-center text-xl font-semibold group-hover:underline">{{ project.title }}</div>
+          <div class="items-center text-xl font-medium group-hover:underline">{{ project.title }}</div>
           <div class="text-sm text-gray-500">{{ project.category }}</div>
         </div>
         <div class="aspect-w-16 aspect-h-9">

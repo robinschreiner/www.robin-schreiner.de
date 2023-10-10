@@ -23,11 +23,11 @@ body {
 }
 
 nav li a {
-  @apply text-gray p-2 -mx-2 cursor-pointer hover:bg-gold-50 hover:text-gray-600 py-1 rounded transition font-medium;
+  @apply text-gray p-2 -mx-2 cursor-pointer hover:bg-blue-50 hover:text-blue-600 py-1 rounded transition font-medium;
 }
 
 nav .nuxt-link-exact-active {
-  @apply text-gray-900 hover:text-gray-900 bg-gold-50 cursor-default;
+  @apply text-blue-900 hover:text-blue-900 bg-blue-50 cursor-default;
 }
 
 h1,
@@ -42,6 +42,10 @@ h6,
 
 .font-sans {
   font-family: var(--font-sans);
+}
+
+a[href*="//"]:not([href*="robin-schreiner.de"]) {
+  @apply underline;
 }
 
 a[href^='tel']::after,

@@ -19,11 +19,8 @@ module.exports = {
         headerMobile: '1fr auto',
       },
       fontFamily: {
-        brand: ['Apercu, Inter, sans-serif'],
+        brand: ['GTAmerica', 'Apercu, Inter, sans-serif'],
         sans: ['Inter, sans-serif'],
-        // sans: [
-        //   'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-        // ],
       },
       minHeight: {
         '50vh': '50vh',

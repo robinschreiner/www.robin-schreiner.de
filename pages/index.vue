@@ -1,12 +1,12 @@
 <template>
   <main class="p-8 pt-0 md:pt-8 col-span-full">
     <section class="grid items-center gap-8 my-8 md:grid-cols-2">
-      <h2
-        class="flex flex-col gap-8 pt-4 text-xl font-medium font-brand md:text-xl lg:text-2xl xl:text-3xl md:py-16 lg:py-20 md:mr-8 lg:mr-16 xl:mr-24">
+      <h1
+        class="flex flex-col gap-8 pt-4 text-xl font-medium font-brand md:text-2xl lg:text-3xl xl:text-4xl md:py-16 lg:py-20 md:mr-8 lg:mr-16 xl:mr-24">
         <span>Hey, I'm Robin.</span>
         <span>I work as Design System Product Owner at Siemens.</span>
-      </h2>
-      <figure class="max-w-xl aspect-w-16 aspect-h-10">
+      </h1>
+      <figure class="aspect-w-16 aspect-h-10">
         <nuxt-picture src="images/robin-schreiner4.jpg"
           :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-lg no-zoom' }" placeholder
           alt="Portrait for Robin Schreiner" />
@@ -53,8 +53,9 @@
     <div class="grid gap-8">
       <section class="mt-4">
         <div class="flex items-center justify-between my-8">
-          <h2 class="text-2xl">Latest Thoughts</h2>
-          <nuxt-link class="p-4 py-2 transition bg-gray-100 rounded-md hover:bg-gray-200 hover:underline"
+          <h2 class="max-w-3xl font-sans text-xl text-gray-500">Latest Thoughts</h2>
+          <nuxt-link
+            class="p-4 py-2 transition rounded-md bg-blue-50 hover:bg-blue-100 hover:text-blue-700 hover:underline font-medium text-sm text-blue-500"
             to="/thoughts">View all</nuxt-link>
         </div>
         <!-- <thoughts :showDetails="false" :amount="3" /> -->

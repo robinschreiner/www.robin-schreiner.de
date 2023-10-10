@@ -7,7 +7,7 @@
             <div class="flex flex-col justify-end order-2 w-full md:order-1">
               <div class="mb-4">
                 <span class="text-xs font-medium text-gray-400 group-hover:scale-105">{{ post.category }}</span>
-                <h3 class="mt-2 font-semibold text-md md:text-xl">{{ post.title }}</h3>
+                <h3 class="mt-2 font-medium text-md md:text-xl">{{ post.title }}</h3>
                 <p class="text-sm">{{ post.description }}</p>
               </div>
             </div>
@@ -22,7 +22,7 @@
             <span v-if="post.createdAt" class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full">
               {{ formatDate(post.createdAt) }}
             </span>
-            <h3 class="mt-2 font-semibold text-md md:text-xl">{{ post.title }}</h3>
+            <h3 class="mt-2 font-medium text-md md:text-xl">{{ post.title }}</h3>
             <p class="text-sm">{{ post.description }}</p>
           </div>
         </template>

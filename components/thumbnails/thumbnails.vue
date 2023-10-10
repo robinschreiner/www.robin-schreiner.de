@@ -1,29 +1,42 @@
 <template>
-  <section v-if="posts.length > 0"
-    class="grid md:grid-cols-3 gap-4 border border-slate-100 rounded-lg divide-y md:divide-x divide-slate-100">
+  <section v-if="posts.length > 0" class="grid md:grid-cols-3 gap-4">
     <nuxt-link :to="`/${postType}/${post.slug}`"
-      class="flex max-w-xl flex-col items-start justify-start group hover:bg-slate-100 p-5" v-for="(post, index) in posts"
-      :key="index">
+      class="flex max-w-xl flex-col items-start justify-start group p-4 border border-blue-100 rounded-lg hover:border-blue-200 hover:bg-blue-50"
+      v-for="(post, index) in posts" :key="index">
       <div class="flex items-start gap-x-4 text-xs">
         <time :datetime="post.createdAt"
           class="font-mono text-sm text-gray-500 whitespace-no-wrap">{{ formatDate(post.createdAt) }}</time>
       </div>
       <div class="group relative">
-        <h3 class="text-xl font-semibold group-hover:underline">
+        <h3 class="text-xl font-medium group-hover:underline">
           <a href="#">
             <span class="absolute inset-0"></span>
             {{ post.title }}
           </a>
         </h3>
-        <p class="mt-4 mb-4 line-clamp-3 font-medium text-gray-600">
+        <p class="mt-4 mb-4 line-clamp-3 text-gray-600">
           {{ post.description }}
         </p>
-        <a href="" class="transition group-hover:underline">Read
+
+        <a href=""
+          class="p-4 py-2 transition bg-blue-50 group-hover:bg-blue-100 rounded-md group-hover:text-blue-700 group-hover:underline  font-medium text-sm text-blue-500">Read
           more</a>
       </div>
     </nuxt-link>
   </section>
-  <div v-else-if="loading" class="cards">
+  <div v-else-if="loading" class="grid md:grid-cols-3 gap-4 cards">
+    <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="space-y-6 card">
+      <content-placeholders :rounded="false" :class="placeholder">
+        <content-placeholders-heading />
+        <content-placeholders-text />
+      </content-placeholders>
+    </div>
+    <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="space-y-6 card">
+      <content-placeholders :rounded="false" :class="placeholder">
+        <content-placeholders-heading />
+        <content-placeholders-text />
+      </content-placeholders>
+    </div>
     <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="space-y-6 card">
       <content-placeholders :rounded="false" :class="placeholder">
         <content-placeholders-heading />
@@ -77,7 +90,7 @@ export default {
   },
   computed: {
     placeholderClasses() {
-      const classes = ['w-full', 'w-2/3', 'w-5/6']
+      const classes = ['w-full', 'w-full', 'w-full']
       return [...Array.from({ length: this.amount }, (v, i) => classes[i % classes.length])] // repeats classes after one another
     },
   },

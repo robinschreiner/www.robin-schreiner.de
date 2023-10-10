@@ -2,7 +2,7 @@
   <main class="p-8 mx-auto space-y-8 max-w-7xl">
     <section class="grid w-full gap-2 mx-auto max-w-7xl md:grid-cols-2">
       <section class="self-start w-full pr-16 top-24 max-w-7xl">
-        <h1 class="mb-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl md:text-4xl">About me</h1>
+        <h1 class="mb-8 text-2xl font-medium tracking-tight text-gray-900 sm:text-3xl md:text-4xl">About me</h1>
         <h2 class="max-w-3xl mb-8 font-sans text-xl text-gray-500">
           Born digital at the intersection of creativity and technology I became a Designer who think in code and
           business. I enjoy blurring the lines of design and engineering, and encourage cross-disciplinary collaboration

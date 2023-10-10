@@ -2,14 +2,9 @@
   <header class="grid gap-8 p-8 grid-cols-headerMobile md:grid-cols-2">
     <div class="logo">
       <nuxt-link class="flex items-center gap-2 transition opacity-100 cursor-pointer hover:opacity-80" to="/">
-        <!-- <figure class="w-14 h-14">
-          <nuxt-picture src="images/robin-schreiner4.jpg"
-            :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-full no-zoom' }" placeholder
-            width="3.5rem" height="3.5rem" alt="Portrait for Robin Schreiner" />
-        </figure> -->
         <h1 class="flex flex-col font-sans">
-          <span class="font-semibold">Robin Schreiner </span>
-          <span class="opacity-50 font-base">Product Leader</span>
+          <span class="font-bold">Robin Schreiner </span>
+          <span class="opacity-50 font-base">Product Leader / UX / Design Systems</span>
         </h1>
       </nuxt-link>
     </div>
@@ -29,7 +24,6 @@
         <p class="font-medium text-md">Links</p>
         <li><nuxt-link @click="open == false" to="/">Start</nuxt-link></li>
         <li><nuxt-link @click="open == false" to="/about-me">About me</nuxt-link></li>
-        <!-- <li><nuxt-link @click="open == false" to="/projects">Projects</nuxt-link></li> -->
         <li><nuxt-link @click="open == false" to="/thoughts">Thoughts</nuxt-link></li>
         <li><nuxt-link @click="open == false" to="/cv">Experience</nuxt-link></li>
       </ul>
