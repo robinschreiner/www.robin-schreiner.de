@@ -1,12 +1,12 @@
 ---
 createdAt: 2023-04-01
 title: Empty States – the overlooked UX-Hero
-description: What could make a better topic for my first entry than ... empty states ?
+description: What could make a better topic for my first entry than ... empty states?
 cover: /images/thoughts/2023-04-01-empty-states–the-overlooked-hero-of-ux.jpg
 ---
 Empty states are often overlooked or forgotten in the design process, but they can be real drivers of substantial value, and if done right, contribute to an overall more compelling user experience.
 
-### What Is an Empty State?
+## What Is an Empty State?
 
 Empty states they moments in a user’s experience where there is no content or data to display (yet). This can happen when a user opens an app or website for the first time, tries to search for something but gets no results or experiences a hiccup while using the interface.
 
@@ -14,7 +14,7 @@ Take for example a messaging app. If you initially open the app, there is no mes
 
 Empty space can be considered a way to communicate with the user about something useful for example an action to resolve the empty state. A thoughtfully designed empty state helps guide the user and offers a straightforward direction to proceed, whereas a poorly designed empty state can lead to confusion or frustration.
 
-### Types of empty sates
+## Types of empty sates
 
 As mentioned there are different types of empty states. Here are 3 of the most common types that I found in the projects a work in before:
 
@@ -27,7 +27,7 @@ As mentioned there are different types of empty states. Here are 3 of the most c
 * **No internet connection:**
   Occurs when the user does not have an internet connection and therefore cannot access content of functions.
 
-### How Does Empty State Impact the UX
+## How Does Empty State Impact the UX
 
 There are multiple ways in which a well-designed empty state enhances the user experience of your application.
 
@@ -38,7 +38,7 @@ There are multiple ways in which a well-designed empty state enhances the user e
 * **Helps prevent frustration**
   When an empty state is poorly designed, it can confuse or frustrate users, resulting in a negative impact on their experience. A well-designed empty state minimizes frustration and contributes to an overall positive experience within your application or website.
 
-### Tipps for better empty states
+## Tipps for better empty states
 
 * **Communicate Purpose:**
   Use the empty state to explain the application's purpose and functionality.
@@ -78,7 +78,7 @@ There are multiple ways in which a well-designed empty state enhances the user e
 Your browser does not support the video tag.
 </video>
 
-### Conclusion
+## Conclusion
 
 Even when overlooked before (I do it all the time... 🙄) try to start your designs with an empty state and continue from there.
 

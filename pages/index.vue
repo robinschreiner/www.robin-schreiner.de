@@ -9,7 +9,7 @@
       <figure class="aspect-w-16 aspect-h-10">
         <nuxt-picture src="images/robin-schreiner4.jpg"
           :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-lg no-zoom' }" placeholder
-          alt="Portrait for Robin Schreiner" />
+          alt="Portrait of Robin Schreiner" />
       </figure>
       <svg class="h-auto max-w-xl mx-auto hidden" viewBox="0 0 574 513" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="171" cy="342" r="170.5" stroke="black" stroke-opacity="0.2" />
@@ -55,8 +55,8 @@
         <div class="flex items-center justify-between my-8">
           <h2 class="max-w-3xl font-sans text-xl text-gray-500">Latest Thoughts</h2>
           <nuxt-link
-            class="p-4 py-2 transition rounded-md bg-blue-50 hover:bg-blue-100 hover:text-blue-700 hover:underline font-medium text-sm text-blue-500"
-            to="/thoughts">View all</nuxt-link>
+            class="p-4 py-2 transition rounded-md bg-blue-50 hover:bg-blue-100 hover:text-blue-900 hover:underline font-medium text-sm text-blue-700"
+            to="/thoughts">View all thoughts</nuxt-link>
         </div>
         <!-- <thoughts :showDetails="false" :amount="3" /> -->
         <thumbnails :amount="3" />

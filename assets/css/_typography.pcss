@@ -410,6 +410,14 @@ explicitly, e.g.
   @apply list-disc p-4 text-gray-600;
 }
 
+.nuxt-content li ul {
+  @apply p-0 px-4;
+}
+
+.nuxt-content p:has(+ ul) {
+  @apply mb-2;
+}
+
 .nuxt-content li {
   @apply pb-2;
 }

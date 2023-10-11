@@ -6,7 +6,7 @@
           <div class="grid gap-2 transition transform md:gap-2 odd:items-end group hover:translate-x-2">
             <div class="flex flex-col justify-end order-2 w-full md:order-1">
               <div class="mb-4">
-                <span class="text-xs font-medium text-gray-400 group-hover:scale-105">{{ post.category }}</span>
+                <span class="text-xs font-medium text-gray-500 group-hover:scale-105">{{ post.category }}</span>
                 <h3 class="mt-2 font-medium text-md md:text-xl">{{ post.title }}</h3>
                 <p class="text-sm">{{ post.description }}</p>
               </div>
@@ -19,7 +19,7 @@
 
         <template v-else>
           <div class="w-full transition transform group hover:translate-x-2">
-            <span v-if="post.createdAt" class="text-xs font-medium text-gray-400 whitespace-no-wrap rounded-full">
+            <span v-if="post.createdAt" class="text-xs font-medium text-gray-500 whitespace-no-wrap rounded-full">
               {{ formatDate(post.createdAt) }}
             </span>
             <h3 class="mt-2 font-medium text-md md:text-xl">{{ post.title }}</h3>

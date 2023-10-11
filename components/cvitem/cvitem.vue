@@ -1,9 +1,9 @@
 <template>
-  <ul v-if="jobs.length > 0" class="flex flex-col gap-4 cards">
+  <div v-if="jobs.length > 0" class="flex flex-col gap-2 md:gap-4 cards">
     <div class="group">
-      <li v-for="(job, index) in jobs" :key="index"
+      <div v-for="(job, index) in jobs" :key="index"
         class="relative grid gap-4 p-4 py-4 -mx-4 transition rounded-md opacity-100 md:grid-cols-2 card card--clickable">
-        <div class="flex flex-col mb-4">
+        <div class="flex flex-col">
           <div class="items-center text-xl font-medium">{{ job.title }}</div>
           <div class="text-gray-500">{{ job.duration }}</div>
           <div class="text-gray-500">{{ job.company }}</div>
@@ -11,8 +11,8 @@
         <div x-data="{showDetails:false}">
           <div v-if="job.achievements" class="space-y-2 text-sm">
             <p class="flex items-start gap-2 font-medium text-gray-600" v-for="(achievement, index) in job.achievements">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="inline-block w-5 shrink-0 flex-0 text-gold-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" alt=""
+                role="presentation" stroke="currentColor" class="inline-block w-5 shrink-0 flex-0 text-gold-300">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z">
                 </path>
@@ -25,9 +25,9 @@
               class="w-full mx-auto text-xs text-gray-700 max-w-7xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert" />
           </div>
         </div>
-      </li>
+      </div>
     </div>
-  </ul>
+  </div>
   <div v-else-if="loading" class="cards">
     <div v-for="placeholder in placeholderClasses" :key="placeholder.id" class="space-y-6 card">
       <content-placeholders :rounded="false" :class="placeholder">

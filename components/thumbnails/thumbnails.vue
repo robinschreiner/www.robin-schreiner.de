@@ -9,7 +9,7 @@
       </div>
       <div class="group relative">
         <h3 class="text-xl font-medium group-hover:underline">
-          <a href="#">
+          <a href="#" tabindex="-1">
             <span class="absolute inset-0"></span>
             {{ post.title }}
           </a>
@@ -18,8 +18,8 @@
           {{ post.description }}
         </p>
 
-        <a href=""
-          class="p-4 py-2 transition bg-blue-50 group-hover:bg-blue-100 rounded-md group-hover:text-blue-700 group-hover:underline  font-medium text-sm text-blue-500">Read
+        <a href="" tabindex="-1"
+          class="p-4 py-2 transition bg-blue-50 group-hover:bg-blue-100 rounded-md group-hover:text-blue-900 group-hover:underline  font-medium text-sm text-blue-700">Read
           more</a>
       </div>
     </nuxt-link>

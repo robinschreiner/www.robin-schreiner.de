@@ -12,7 +12,7 @@
       <figure class="aspect-w-16 aspect-h-10">
         <nuxt-picture src="images/robin-schreiner4.jpg"
           :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-lg no-zoom' }" placeholder
-          alt="Portrait for Robin Schreiner" />
+          alt="Portrait of Robin Schreiner" />
       </figure>
     </section>
 

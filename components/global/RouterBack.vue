@@ -8,19 +8,6 @@
   </div>
 </template>
 
-<!-- <script>
-export default {
-  data() {
-    return {
-      path: '/',
-    }
-  },
-  created() {
-    if (this.$nuxt?.context?.from?.path) this.path = this.$nuxt.context.from.path
-  },
-}
-</script> -->
-
 <script>
 export default {
   methods: {
