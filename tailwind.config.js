@@ -75,16 +75,6 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {
-      fontWeight: ['responsive', 'hover', 'focus'],
-      opacity: ['hover'],
-      borderColor: ['hover', 'focus'],
-      margin: ['first', 'last'],
-      backgroundColor: ['odd', 'even'],
-      scale: ['hover', 'active', 'group-hover'],
-    },
-  },
   corePlugins: {
     aspectRatio: false,
   },
@@ -92,12 +82,10 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     // ...
   ],
-  purge: {
-    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+  content: {
     enabled: process.env.NODE_ENV === 'production',
     content: ['components/**/*.vue', 'layouts/**/*.vue', 'pages/**/*.vue', 'plugins/**/*.js', 'nuxt.config.js'],
     options: {
-      // Set safelist in nuxt.config.js -> purgeCSS.safelist: ['btn', 'icon']
     },
   },
 }

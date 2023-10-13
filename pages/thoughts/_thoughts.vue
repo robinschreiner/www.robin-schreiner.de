@@ -23,8 +23,10 @@
             :imgAttrs="{ id: 'my-id', class: 'object-cover w-full h-full rounded-full no-zoom' }" placeholder
             alt="Portrait for Robin Schreiner" />
         </figure>
-        <h3 class="mt-6 text-base font-medium leading-7 tracking-tight text-gray-900">Thanks for taking the time,</h3>
-        <p class="text-sm leading-6 text-gray-600">Robin Schreiner</p>
+        <h3 class="mt-6 text-base font-medium leading-7 tracking-tight text-gray-900">Thanks for taking the time</h3>
+        <p class="text-sm leading-6 text-gray-600">Say hi on <a href="https://www.linkedin.com/in/robin-schreiner"
+            target="_blank">LinkedIn</a>, <a href="https://twitter.com/robin_schreiner" target="_blank">Twitter</a> or
+          write me an email.</p>
       </div>
     </section>
   </main>

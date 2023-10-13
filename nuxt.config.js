@@ -60,7 +60,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss', ['nuxt-matomo', { matomoUrl: '//analytics.ronnika.de/', siteId: 2 }]],
+  modules: ['@nuxt/content', 'nuxt-purgecss', ['nuxt-matomo', { matomoUrl: '//analytics.ronnika.de/', siteId: 2 }], '@nuxtjs/sitemap'],
   /*
    ** Build configuration
    */
@@ -95,6 +95,12 @@ export default {
     viewer: false, // disabled because it causes `Error: Cannot find module 'tailwindcss/resolveConfig'`, fixed in https://github.com/nuxt-community/tailwindcss-module/pull/303
     cssPath: '~/assets/css/main.pcss',
     exposeConfig: false, // enables `import { theme } from '~tailwind.config'`
+  },
+  sitemap: {
+    // options
+    // hostname: process.env.main_base_URL,
+    hostname: 'https://www.robin-schreiner.de',
+    exclude: ['/projects', '/projects/**'],
   },
   purgeCSS: {
     mode: 'postcss',
