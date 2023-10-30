@@ -35,7 +35,8 @@ Meanwhile, mobile design became a dominant force, given the increasing use of sm
 
 ## The Current State of Interface Design and Upcoming Trends
 
-Today, interface design is a blend of art and science. We need to strike a balance between looking good and working well. Responsive design ensures that interfaces adapt to different devices and screen sizes. The mobile-first approach, focusing on smaller screens, is gaining traction. Skeuomorphic and flat design styles continue to be relevant, each with its strengths in specific contexts.
+Today, interface design is a pendulum blend of art and science. Most designers strive for a balance between looking good and working well. 
+Conceptual, responsive design ensures that interfaces adapt to different devices and screen sizes. The mobile-first approach, focusing on smaller screens, is established. Most of todays discussions are around design trends like Skeuomorphic and flat design. What stays, is that interfaces are automatically able to adapt to devices, what they struggle 
 
 ## Adaptive Interfaces: Designs that Put Users First
 
