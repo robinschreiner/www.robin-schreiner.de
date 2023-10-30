@@ -14,9 +14,10 @@ In the beginning, the world of computing was a realm of text commands. Users had
 
 I can remember, taking part in a course for programming Pascal when I was 10 years old. Comming from MS-Dos 
 
-![Screenshot of a Pascal Programming Interface](https://i.ytimg.com/vi/b4TYItvAHR0/maxresdefault.jpg)
+![Screenshot of a Pascal Programming Interface](https://i.ytimg.com/vi/b4TYItvAHR0/maxresdefault.jpg "test")
 
-![Screenshot of a Pascal Programming Interface](https://www.weltderfertigung.de/images/k800_cnc_programm-erstellen_510.jpg)
+
+![Screenshot of a Pascal Programming Interface](https://www.weltderfertigung.de/images/k800_cnc_programm-erstellen_510.jpg "test")
 
 Then came the revolutionary Graphical User Interfaces (GUI). GUIs transformed the way we interacted with computers by introducing visual elements. Icons, windows, and the use of a mouse made computing accessible to a broader audience. Innovations like the Xerox PARC's Alto, Apple's Macintosh, and Microsoft Windows played pivotal roles in popularizing GUIs. It was a significant leap from the text-based CLI, offering a more intuitive and user-friendly experience.
 
@@ -48,7 +49,7 @@ Design systems are the backbone of consistency and efficiency in interface desig
 
 Dynamic user-centered interfaces take personalization to the next level. They use user data to customize the experience. Context-aware adjustments ensure that interfaces remain user-friendly in various situations and environments.
 
-## AI-powered UI Generation: Using AI to Make Design Smoother
+## AI-powered UI Generation: How AI Can Enhance User Experience?
 
 Artificial intelligence is changing the game in interface design. Machine learning algorithms generate UI elements, making the design process more efficient. Automated layout suggestions and natural language processing help with content creation. Designers can now use AI to automate repetitive tasks, reshaping their roles and workflows.
 
@@ -56,7 +57,7 @@ Artificial intelligence is changing the game in interface design. Machine learni
 
 Real-time interface composition is a game-changer in design. Collaborative tools allow for on-the-fly customization of UI components. This is a blessing for remote teams, enabling seamless teamwork and speeding up the design process.
 
-## The Future of Interface Design: What's Coming Next
+## What's Coming Next: The Future of Interface Design - Human in the loop – Designing for joint control
 
 Looking ahead, the future of interface design is exciting. Augmented reality (AR) interfaces will blend the digital and physical worlds. Voice user interfaces (VUI) and gesture-based interactions will offer new ways to interact with technology. However, we must keep an eye on ethical and inclusive design practices as these new interfaces emerge.
 
